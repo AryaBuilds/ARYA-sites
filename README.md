@@ -1,30 +1,29 @@
-# ARYA Sites
+my personal website
 
-Hii, this is my personal portfolio website that i made using HTML and CSS.
+hi this is my personal website project i made it for school :)
+ 
+  i used HTML and CSS and litle bit of javascript  its not perfect but i tried  my best i made it becuase we have mission on stardance hack club  
 
-I'm Aryaman Kumar, currently in class 10th, from Bihar, India. I'm learning web dev step by step and this site is one of my first real projects. Made it as part of the Stardance Challenge by Hack Club.
+whats in it
+a header with my name u can click on it and changes the colour this is best part of my site try it i spent 1 HOURS to Make this THata og  
+about me section
+my hobbies section
+school life section
+contact section
+how to use
 
-Live site: https://aryabuilds.github.io/ARYA-sites/
+just open the index.html file in any browser (chrome, edge whatever) and it will show the website. no need to install anyting.
 
-## What's in it
+tools i used
+HTML for the structure
+CSS for making it look nice n colorful
+a bit of JavaScript for the header color change thing
+things i learned
 
-- About me section
-- What im currently learning (HTML, CSS and JS next)
-- My interests and goals
-- A way to contact me on instagram
+i learned how to make sections, how to use nav links to jump to diffrent parts of page, and how to change stuff using javascript when u click something. was pretty fun ngl
 
-## Tech used
+made by
 
-Just plain HTML and CSS for now, no frameworks or anything. Gonna add JS later once i learn it properly.
-
-## How to run it
-
-Just OPEN THE LINK - https://aryabuilds.github.io/ARYA-sites/
-
-## Status
-
-Still working on it, will keep updating as i learn more stuff and get better at coding.
-
-## Contact
+Aryaman Kumar, 10th Class, this was my school project so plzz dont judge if its not that good lol
 
 Insta: [@aryaman2403](https://www.instagram.com/aryaman2403/)
