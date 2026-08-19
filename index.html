@@ -1,245 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aryaman Kumar</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>my personal website</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Verdana, sans-serif;
+      background-color: #fdf6ec;
+      color: #333;
+    }
+
+    header {
+      background-color: #6d83a7;
+      padding: 30px 20px;
+      Text-align: center;
+      color: rgb(255, 255, 255);
+    }
+
+    header h1 {
+      margin-bottom: 10px
+    }
+
+    nav a {
+      color: rgb(255, 255, 255);
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: Bold;
+    }
+
+    .section {
+      padding: 40px 20px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .alt {
+      background-color: #ffe5d9;
+    }
+
+    h2 {
+      border-bottom: 3px solid #ff9aa2;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    .hobby-list li {
+      background-color: white;
+      margin: 8px 0;
+      padding: 10px;
+      border-radius: 8px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #ff9aa2;
+      Color: white;
+      font-size: 15px;
+    }
+  </style>
 </head>
 <body>
 
-    <div id="header">
-        <div id="avatar">AK</div>
-        <h1>Aryaman Kumar</h1>
-        <p><i>Student &nbsp;•&nbsp; Class 10th &nbsp;•&nbsp; Bihar, India</i></p>
-    </div>
+  <header>
+    <h1>Hi, im Aryaman Kumar :)</h1>
+    <nav>
+      <a href="#about">about</a>
+      <a href="#hobbies">Hobbies</a>
+      <a href="#school">school</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-    <div id="content">
+  <section id="about" class="section">
+    <h2>about Me</h2>
+    <p>
+      HI my name is Aryaman kumar i am in 10th Class  this is my personal
+      website i made for my project i like to learn new things  
+       t with my friends. this is the SECOND  time im making a
+      website so its not that perfect but i tried my best :)
+    </p>
+  </section>
 
-        <div class="section">
-            <h2>About Me</h2>
-            <hr>
-            <p>
-                Hii, I'm <b>Aryaman Kumar</b>, a student currently studying in
-                <b>class 10th</b>. I live in <b>Bihar, India</b>, and I've
-                always been curious about how things work behind the scenes,
-                especially websites and apps that we use every day.
-            </p>
-            <p>
-                A while back I got introduced to coding, and ever since then
-                I've been slowly learning how to build things from scratch.
-                Alongside my regular school studies, I spend my free time
-                exploring <b>HTML, CSS and JavaScript</b> and trying to build
-                small projects to practice what I learn.
-            </p>
-            <p>
-                I believe in learning by doing, so this website itself is one
-                of my first real projects — built step by step, tag by tag, as
-                part of my journey into web development.
-            </p>
-        </div>
+  <section id="hobbies" class="section alt">
+    <h2>my Hobbies</h2>
+    <ul class="hobby-list">
+      <li>pLAYING games</li>
+      <li>Reading books</li>
+      <li>drawing</li>
+      <li>Listening the Music</li>
+    </ul>
+    <p>i do atleast one of these things everyday, mostly gaming tbh</p>
+  </section>
 
-        <div class="section">
-            <h2>Education</h2>
-            <hr>
-            <div class="skill">
-                <b>Class 10th</b>
-                <p>Currently studying in Bihar, India, balancing school studies with self-taught coding.</p>
-            </div>
-            <div class="skill">
-                <b>Self-Taught Web Developer</b>
-                <p>Learning HTML, CSS and JavaScript on my own through guides, practice and building projects.</p>
-            </div>
-        </div>
+  <section id="school" class="section">
+    <h2>School life</h2>
+    <p>
+      im in 10th Grade rn, MY  favourite subjects are Science and maths,
+      i find them more interesting then other Subjects 
+    </p>
+  </section>
 
-        <div class="section">
-            <h2>What I'm Learning</h2>
-            <hr>
-            <div class="skill">
-                <b>HTML</b>
-                <p>The structure of a webpage — headings, paragraphs, links, images and more.</p>
-            </div>
-            <div class="skill">
-                <b>CSS</b>
-                <p>Styling and designing webpages — colors, layouts, spacing and making things look good.</p>
-            </div>
-            <div class="skill">
-                <b>JS</b>
-                <p>Adding interactivity to webpages — coming up next in my learning journey!</p>
-            </div>
-        </div>
+  <section id="contact" class="section alt">
+    <h2>contact me</h2>
+    <p>wanna say hi? you can just talk to me at school :)</p>
+  </section>
 
-        <div class="section">
-            <h2>Interests</h2>
-            <hr>
-            <p>
-                Outside of coding, I enjoy exploring new technology, playing
-                games, and learning random new things on the internet. I'm
-                someone who likes figuring out how stuff works instead of just
-                using it — which is honestly what got me into web development
-                in the first place.
-            </p>
-        </div>
+  <footer>
+    <p>made by Aryaman kumar — 10th Grade Personal Project</p>
+  </footer>
 
-        <div class="section">
-            <h2>Goals</h2>
-            <hr>
-            <p>
-                My goal is to keep improving my web development skills, build
-                bigger and better projects over time, and eventually create
-                something that actually helps people. This site is just the
-                starting point of that journey.
-            </p>
-        </div>
+  <script>
+    // click header to change color
+    const header = document.querySelector("header")
+    const colors = ["#ff9aa2", "#a2d2ff", "#b5ead7", "#ffdac1"]
+    let colorIndex = 0
 
-        <div class="section">
-            <h2>Contact Me</h2>
-            <hr>
-            <p>You can reach out to me on Instagram:</p>
-            <a id="insta-btn" href="https://www.instagram.com/aryaman2403/" target="_blank">@aryaman2403</a>
-        </div>
-
-    </div>
-
-    <div id="footer">
-        <p>Made with <b>HTML</b> and <b>CSS</b> by Aryaman Kumar, Bihar, India</p>
-    </div>
-
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-
-        body {
-            background-color: rgb(10, 10, 20);
-            color: rgb(230, 230, 240);
-            width: 100%;
-            margin: 0;
-            padding: 0;
-            font-family: 'Poppins', sans-serif;
-        }
-
-        #header {
-            background-color: rgb(30, 20, 60);
-            background-image: linear-gradient(135deg, rgb(90, 40, 160), rgb(200, 60, 130));
-            width: 100%;
-            text-align: center;
-            padding: 70px 20px 55px 20px;
-        }
-
-        #avatar {
-            width: 100px;
-            height: 100px;
-            border-radius: 55px;
-            background-color: rgb(255, 255, 255);
-            color: rgb(120, 40, 150);
-            font-size: 36px;
-            font-weight: 700;
-            line-height: 100px;
-            margin: 0 auto 22px auto;
-            box-shadow: 0px 0px 30px rgba(255, 180, 220, 0.7);
-        }
-
-        #header h1 {
-            font-size: 44px;
-            margin: 0;
-            letter-spacing: 1px;
-        }
-
-        #header p {
-            color: rgb(230, 210, 255);
-            font-size: 17px;
-            margin-top: 12px;
-        }
-
-        #content {
-            width: 700px;
-            max-width: 90%;
-            margin: 0 auto;
-            padding: 55px 0px;
-        }
-
-        .section {
-            background-color: rgb(24, 22, 40);
-            border-radius: 16px;
-            padding: 34px 40px;
-            margin-bottom: 32px;
-            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.4);
-        }
-
-        .section h2 {
-            color: rgb(255, 255, 255);
-            font-size: 26px;
-            margin-top: 0;
-            margin-bottom: 6px;
-        }
-
-        .section hr {
-            border: none;
-            height: 3px;
-            width: 55px;
-            background-color: rgb(220, 90, 160);
-            margin: 0 0 22px 0;
-        }
-
-        .section p {
-            line-height: 1.8;
-            color: rgb(210, 210, 225);
-            font-size: 15px;
-            margin-bottom: 16px;
-        }
-
-        .section p:last-child {
-            margin-bottom: 0;
-        }
-
-        .skill {
-            background-color: rgb(35, 32, 55);
-            border-left: 4px solid rgb(220, 90, 160);
-            border-radius: 8px;
-            padding: 16px 22px;
-            margin-bottom: 15px;
-        }
-
-        .skill:last-child {
-            margin-bottom: 0;
-        }
-
-        .skill b {
-            color: rgb(255, 200, 100);
-            font-size: 18px;
-        }
-
-        .skill p {
-            margin: 8px 0 0 0;
-            font-size: 14px;
-            color: rgb(190, 190, 205);
-        }
-
-        #insta-btn {
-            display: inline-block;
-            background-image: linear-gradient(135deg, rgb(240, 90, 140), rgb(150, 60, 200));
-            color: white;
-            text-decoration: none;
-            font-weight: 600;
-            padding: 13px 28px;
-            border-radius: 30px;
-            margin-top: 8px;
-        }
-
-        #insta-btn:hover {
-            background-image: linear-gradient(135deg, rgb(150, 60, 200), rgb(240, 90, 140));
-        }
-
-        #footer {
-            background-color: rgb(20, 15, 35);
-            width: 100%;
-            text-align: center;
-            padding: 28px 0px;
-            color: rgb(150, 150, 170);
-            font-size: 14px;
-        }
-    </style>
+    header.addEventListener("click", function() {
+      colorIndex = colorIndex + 1
+      if(colorIndex >= colors.length){
+        colorIndex = 0
+      }
+      header.style.backgroundColor = colors[colorIndex]
+    })
+  </script>
 
 </body>
 </html>
